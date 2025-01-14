@@ -18,9 +18,9 @@
 
 /* General styles */
 body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -46,7 +46,7 @@ header a {
     list-style-type: none;
 }
 
-#navmenu > li {
+#navmenu>li {
     margin-bottom: 0.25em;
 }
 
@@ -65,9 +65,11 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav toggle button positioning and drop down*/
 .nav-toggle {
-    margin-left: auto; /* Added as nav bar displayed next to the title */
+    margin-left: auto;
+    /* Added as nav bar displayed next to the title */
 }
 
 #nav-toggle:checked~nav {
@@ -80,7 +82,8 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
-    margin-left: auto; /* Added as label displayed next to the title */
+    margin-left: auto;
+    /* Added as label displayed next to the title */
     padding: 10px;
 }
 
@@ -92,11 +95,39 @@ h1 {
 /* Main content */
 main {
     background-color: var(--clr-primary);
-    flex: 1 0 auto; /* So that main element takes up surplus space to push the footer down */
-    margin-top: 89px; /* At 222 width breakpoint the boxshadow enlarges */
+    flex: 1 0 auto;
+    /* So that main element takes up surplus space to push the footer down */
+    margin-top: 89px;
+    /* At 222 width breakpoint the boxshadow enlarges */
 }
 
 /* Footer */
 footer {
     background-color: var(--primary-color);
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        margin-left: auto; /* Added to move navbar to the right side and moved back to middle when adding media query */
+    }
+
+    #navmenu {
+        display: flex;
+    }
+
+    #navmenu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display:none;
+    }
 }
