@@ -63,12 +63,27 @@ nav {
     padding: 0 0.5rem;
     box-shadow: 0 1px 1px var(--primary-color);
     display: none;
+    top: 100%;
 }
-/* Nav toggle button positioning */
+/* Nav toggle button positioning and drop down*/
 .nav-toggle {
-    margin-left: auto;
-    padding-right: 1rem;
+    margin-left: auto; /* Added as nav bar displayed next to the title */
 }
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.5rem;
+    margin-left: auto; /* Added as label displayed next to the title */
+    padding: 10px;
+}
+
 h1 {
     font-family: var(--primary-font), sans serif;
     letter-spacing: 1px;
