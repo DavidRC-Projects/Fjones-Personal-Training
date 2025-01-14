@@ -127,7 +127,16 @@ footer {
         padding-left: 1rem;
     }
 
+    #navmenu a:hover {
+        border-bottom: 1px solid #ffffff;
+    }
+
     .nav-toggle-label {
         display:none;
     }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen (min-width: 992px) {
+    
 }
