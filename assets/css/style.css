@@ -51,6 +51,18 @@ header a {
 .active {
     border-bottom: 1px solid var(--primary-color);
 }
+
+/* Navbar style and drop down */
+nav {
+    position: absolute;
+    background-color: var(--clr-dark);
+    width: 100%;
+    left: 0;
+    padding: 0 0.5rem;
+    box-shadow: 0 1px 1px var(--primary-color);
+    display: none;
+}
+
 h1 {
     font-family: var(--primary-font);
     letter-spacing: 1px;
