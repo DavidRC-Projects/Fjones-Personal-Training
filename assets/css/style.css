@@ -25,9 +25,13 @@ flex-direction: column;
 
 /* Header */
 header {
-    background-color: var(--primary-color);
+    background-color: var(--clr-dark);
     color: var(--clr-dark);
-    font-family: var(--primary-font);
+    padding: 0 0.5rem;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    box-shadow: 0 1px 1px var(--primary-color);
 }
 
 h1 {
