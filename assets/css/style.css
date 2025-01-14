@@ -26,6 +26,8 @@ flex-direction: column;
 /* Header */
 header {
     background-color: var(--primary-color);
+    color: var(--clr-dark);
+    font-family: var(--primary-font);
 }
 
 /* Main content */
