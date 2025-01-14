@@ -30,6 +30,10 @@ header {
     font-family: var(--primary-font);
 }
 
+h1 {
+    font-family: var(--primary-font);
+}
+
 /* Main content */
 main {
     background-color: var(--clr-primary);
