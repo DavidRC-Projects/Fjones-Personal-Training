@@ -26,12 +26,14 @@ flex-direction: column;
 /* Header */
 header {
     background-color: var(--clr-dark);
-    color: var(--clr-dark);
+    color: var(--primary-color);
     padding: 0 0.5rem;
     position: fixed;
     z-index: 50;
     width: 100%;
     box-shadow: 0 1px 1px var(--primary-color);
+    display: flex;
+    align-items: baseline;
 }
 
 header a {
@@ -62,9 +64,13 @@ nav {
     box-shadow: 0 1px 1px var(--primary-color);
     display: none;
 }
-
+/* Nav toggle button positioning */
+.nav-toggle {
+    margin-left: auto;
+    padding-right: 1rem;
+}
 h1 {
-    font-family: var(--primary-font);
+    font-family: var(--primary-font), sans serif;
     letter-spacing: 1px;
 }
 
