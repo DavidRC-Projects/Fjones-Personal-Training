@@ -93,6 +93,7 @@ h1 {
 main {
     background-color: var(--clr-primary);
     flex: 1 0 auto; /* So that main element takes up surplus space to push the footer down */
+    margin-top: 89px; /* At 222 width breakpoint the boxshadow enlarges */
 }
 
 /* Footer */
