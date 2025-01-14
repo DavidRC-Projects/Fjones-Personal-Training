@@ -16,6 +16,13 @@
     --clr-primary: #240c44;
 }
 
+/* General styles */
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
 /* Header */
 header {
     background-color: var(--primary-color);
@@ -24,6 +31,7 @@ header {
 /* Main content */
 main {
     background-color: var(--clr-primary);
+    flex: 1 0 auto; /* So that main element takes up surplus space to push the footer down */
 }
 
 /* Footer */
