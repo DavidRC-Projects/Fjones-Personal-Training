@@ -39,6 +39,18 @@ header a {
     color: var(--primary-color);
 }
 
+#navmenu {
+    letter-spacing: 1.5px;
+    list-style-type: none;
+}
+
+#navmenu > li {
+    margin-bottom: 0.25em;
+}
+
+.active {
+    border-bottom: 1px solid var(--primary-color);
+}
 h1 {
     font-family: var(--primary-font);
     letter-spacing: 1px;
