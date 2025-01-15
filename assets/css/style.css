@@ -105,6 +105,12 @@ main {
     /* At 222 width breakpoint the boxshadow enlarges */
 }
 
+/* Carousel */
+.carousel-img {
+    height: 200px;
+    width: 100%;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
