@@ -105,10 +105,15 @@ main {
     /* At 222 width breakpoint the boxshadow enlarges */
 }
 
-/* Carousel */
+/* Carousel positioning */
 .carousel-img {
-    height: 200px;
-    width: 100%;
+    margin: 0 auto; /* Allows the pictures to be in the centre */
+    margin-top: 140px; /* Allows the pictures to be below the header */
+    display: block;
+    height: 400px; 
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 /* Footer */
