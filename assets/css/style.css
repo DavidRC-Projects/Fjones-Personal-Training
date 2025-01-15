@@ -166,4 +166,5 @@ footer {
 #social-links i {
     font-size: 140%;
     padding: 5%;
+    color: var(--clr-dark);
 }
