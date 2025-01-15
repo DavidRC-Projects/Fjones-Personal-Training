@@ -50,6 +50,10 @@ header a {
     margin-bottom: 0.25em;
 }
 
+#navmenu a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
 .active {
     border-bottom: 1px solid var(--primary-color);
 }
@@ -116,27 +120,31 @@ footer {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-        margin-left: auto; /* Added to move navbar to the right side and moved back to middle when adding media query */
+        margin-left: auto;
+        /* Added to move navbar to the right side and moved back to middle when adding media query */
     }
 
     #navmenu {
         display: flex;
     }
 
-    #navmenu > li {
+    #navmenu>li {
         padding-left: 1rem;
     }
 
-    #navmenu a:hover {
-        border-bottom: 1px solid #ffffff;
-    }
-
     .nav-toggle-label {
-        display:none;
+        display: none;
     }
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen (min-width: 992px) {
-    
+@media screen and (min-width: 992px) {
+        /* h1 element */
+        header a h1 br {
+            display: none; /* Problem identified on chat GPT and used to keep text on the same line */
+        }
+        h1 {
+            margin-top: 28px;
+            letter-spacing: 4px;
+        }
 }
