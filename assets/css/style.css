@@ -137,7 +137,7 @@ main {
 
 .introtext {
     flex: 1;
-    text-align: right;
+    text-align: center;
     align-items: center;
     padding: 30px;
 }
