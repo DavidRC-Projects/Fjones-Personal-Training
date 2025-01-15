@@ -148,3 +148,22 @@ footer {
             letter-spacing: 4px;
         }
 }
+
+/* Footer */
+
+.footercontainer {
+    padding: 10px;
+}
+
+#social-links {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#social-links i {
+    font-size: 140%;
+    padding: 5%;
+}
