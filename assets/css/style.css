@@ -97,7 +97,7 @@ h1 {
     letter-spacing: 1px;
 }
 
-h2 {
+h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
