@@ -102,6 +102,12 @@ h2, h3 {
     color: var(--primary-color);
 }
 
+h3 ~ ul {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    list-style-type: none;
+}
+
 p {
     font-family: var(--secondary-font);
     color: var(--clr-highlight);
