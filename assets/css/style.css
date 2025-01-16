@@ -120,6 +120,19 @@ main {
     background-color: var(--primary-color); /* White background so that alt text shows */
 }
 
+/* Button */
+
+.btn {
+    background-color: var(--clr-highlight);
+    border-color: var(--clr-primary);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--clr-dark);
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
