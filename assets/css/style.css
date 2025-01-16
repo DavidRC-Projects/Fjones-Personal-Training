@@ -121,12 +121,6 @@ h3~ul {
     letter-spacing: 2px;
 }
 
-/* I noticed that there is 2 rem of padding to the left of the icons 
-#icons ul { 
-    padding-left: 0; 
-    text-align: left;
-}
-*/
 p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
@@ -142,9 +136,18 @@ main {
     /* At 222 width breakpoint the boxshadow enlarges */
 }
 
+/* Removed margins from container for all pages and added padding */
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 35px;
+    padding-left: 35px;
+}
 .carousel-item {
     background-color: var(--primary-color);
     /* White background so that alt text shows */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Buttons */
