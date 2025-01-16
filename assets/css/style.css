@@ -120,7 +120,7 @@ main {
     background-color: var(--primary-color); /* White background so that alt text shows */
 }
 
-/* Button */
+/* Buttons */
 
 .btn {
     background-color: var(--clr-highlight);
