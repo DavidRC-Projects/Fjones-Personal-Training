@@ -98,16 +98,28 @@ h1 {
     letter-spacing: 1px;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     letter-spacing: 3px;
 }
 
-h3 ~ ul {
+h3~ul {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     list-style-type: none;
+}
+
+#icons li i {
+    color: var(--clr-highlight);
+    font-size: 140%;
+    padding: 5px;
+}
+
+#icons li {
+    letter-spacing: 2px;
 }
 
 p {
@@ -125,7 +137,8 @@ main {
 }
 
 .carousel-item {
-    background-color: var(--primary-color); /* White background so that alt text shows */
+    background-color: var(--primary-color);
+    /* White background so that alt text shows */
 }
 
 /* Buttons */
@@ -139,6 +152,10 @@ main {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     color: var(--clr-dark);
+}
+
+.lead {
+    letter-spacing: 3px;
 }
 
 /* Footer */
@@ -206,8 +223,9 @@ footer {
         letter-spacing: 4px;
     }
 
-    .text-center section { 
-        display: flex; /* Had help from chat GPT to align this section in the middle of the div */
+    .text-center section {
+        display: flex;
+        /* Had help from chat GPT to align this section in the middle of the div */
         flex-direction: column;
         justify-content: center;
         align-items: center;
