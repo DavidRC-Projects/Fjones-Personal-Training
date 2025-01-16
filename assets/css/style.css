@@ -116,34 +116,9 @@ main {
     /* At 222 width breakpoint the boxshadow enlarges */
 }
 
-/* Carousel positioning */
-.carousel-img {
-    margin-top: 20px;
-    /* Allows the pictures to be below the header */
-    display: block;
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-
-/* Carousel background colour if image does not load */
 .carousel-item {
     background-color: var(--primary-color); /* White background so that alt text shows */
 }
-
-/* Introduction text positioning next to carousel */
-
-.introtext {
-    flex: 1;
-    text-align: center;
-    align-items: center;
-    padding: 30px;
-}
-
-/* Button spacing and positioning */
-
 
 /* Footer */
 footer {
