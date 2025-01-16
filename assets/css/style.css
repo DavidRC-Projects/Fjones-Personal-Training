@@ -111,7 +111,7 @@ h3 ~ ul {
 
 p {
     font-family: var(--secondary-font);
-    color: var(--clr-highlight);
+    color: var(--primary-color);
 }
 
 /* Main content */
@@ -190,7 +190,7 @@ footer {
     }
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* h1 element */
@@ -202,5 +202,13 @@ footer {
     h1 {
         margin-top: 28px;
         letter-spacing: 4px;
+    }
+
+    .text-center section { 
+        display: flex; /* Had help from chat GPT to align this section in the middle of the div */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
 }
