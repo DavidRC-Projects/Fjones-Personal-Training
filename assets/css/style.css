@@ -104,6 +104,7 @@ h4 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     letter-spacing: 3px;
+    padding-left: 30px;
 }
 
 h3~ul {
@@ -143,6 +144,8 @@ main {
     padding-right: 35px;
     padding-left: 35px;
 }
+
+/* Carousel image */
 .carousel-item {
     background-color: var(--primary-color);
     /* White background so that alt text shows */
