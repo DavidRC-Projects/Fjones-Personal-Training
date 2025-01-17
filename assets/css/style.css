@@ -96,15 +96,19 @@ nav {
 h1 {
     font-family: var(--primary-font), sans serif;
     letter-spacing: 1px;
+    margin-left: 15px;
 }
 
-h2,
-h3,
-h4 {
+h2, h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     letter-spacing: 3px;
+}
+
+h4 {
     padding-left: 20px;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
 h3~ul {
@@ -174,7 +178,8 @@ main {
 /* Styling heading for about me page */
 .aboutmeheading {
     text-align: center;
-    margin-top: 1rem; /* This is equal to the margin-top of the home page found on developer tools */
+    margin-top: 1rem;
+    /* This is equal to the margin-top of the home page found on developer tools */
     padding-left: 35px;
     padding-right: 35px;
 }
