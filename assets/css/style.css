@@ -239,6 +239,12 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    /* Position table more to the left and down when screen size changes to desktop */
+    .table {
+        margin-left: 20px;
+        margin-top: 22px;
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
