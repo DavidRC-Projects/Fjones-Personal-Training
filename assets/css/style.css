@@ -126,6 +126,10 @@ h3~ul {
     letter-spacing: 2px;
 }
 
+#icons li:hover {
+    font-size: 130%;
+}
+
 p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
