@@ -158,6 +158,7 @@ main {
 .btn {
     background-color: var(--clr-highlight);
     border-color: var(--clr-primary);
+    margin-bottom: 10px;
 }
 
 .btn:hover {
