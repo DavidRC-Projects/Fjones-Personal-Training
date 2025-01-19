@@ -195,12 +195,18 @@ main {
     font-size: 120%;
 }
 
-/* Positioning of booking form */
+/* Positioning of booking form with asterisk to override default styles */
 
-.row {
+.row • {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*  form label styles */
+.form-label {
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
 }
 
 /* Footer */
