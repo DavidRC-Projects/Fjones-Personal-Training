@@ -99,7 +99,8 @@ h1 {
     margin-left: 15px;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     letter-spacing: 3px;
@@ -194,6 +195,14 @@ main {
     font-size: 120%;
 }
 
+/* Positioning of booking form */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
@@ -251,11 +260,11 @@ footer {
         font-family: var(--secondary-font);
     }
 
-   /* Highlight the heading of the table Asterisk to override default styles has not worked */
-   #tableheading * {
-    font-family: var(--primary-font);
-    color: var(--clr-highlight)
-   }
+    /* Highlight the heading of the table Asterisk to override default styles has not worked */
+    #tableheading * {
+        font-family: var(--primary-font);
+        color: var(--clr-highlight)
+    }
 }
 
 /* Media query: tablets and larger (992px and up) */
@@ -265,11 +274,6 @@ footer {
     header a h1 br {
         display: none;
         /* Problem identified on chat GPT and used to keep text on the same line */
-    }
-
-    h1 {
-        margin-top: 28px;
-        letter-spacing: 4px;
     }
 
     .text-center section {
