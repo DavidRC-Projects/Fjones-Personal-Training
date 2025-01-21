@@ -131,6 +131,15 @@ h3~ul {
     font-size: 130%;
 }
 
+.contact-icons {
+    color: var(--primary-color);
+    padding: 15px;
+}
+
+.contact-icons i:hover {
+    font-size: 130%;
+}
+
 p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
