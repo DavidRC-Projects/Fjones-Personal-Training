@@ -209,6 +209,15 @@ main {
     font-family: var(--secondary-font);
 }
 
+/*  iframe positioning */
+
+.iframe {
+    display: flex; 
+    justify-content: center; /* Centre iframe horizontally */
+    align-items: center;
+    margin-top: 20px;
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
