@@ -166,7 +166,7 @@ main {
 /* Carousel image */
 .carousel-item {
     background-color: var(--primary-color);
-    /* White background so that alt text shows */
+    /* White background so that alt text is visible */
     margin-top: 10px;
     margin-bottom: 10px;
 }
