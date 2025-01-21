@@ -216,6 +216,7 @@ main {
     justify-content: center; /* Centre iframe horizontally */
     align-items: center;
     margin-top: 20px;
+    padding: 20px;
 }
 
 /* Footer */
@@ -266,6 +267,10 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    h2, .iframe {
+        margin-top: 30px;
     }
 
     /* Position table more to the left and down when screen size changes to desktop */
