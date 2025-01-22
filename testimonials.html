@@ -22,10 +22,27 @@
 
     <!-- Stylesheet for CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Google font -->
+    
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
     </style>
 
 </head>
@@ -54,18 +71,19 @@
             <div class="row align-items-start">
                 <div class="col-12 col-lg-6 col-xl-6 text-center p-3">
                     <section>
-                        <h2>Please leave any feedback of your session</h2>
+                        <h2>Session Feedback</h2>
+                        <h3>Please let me know below how your session went</h3>
                         <form action="feedbacksuccess.html" method="GET">
-                        <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name" required>
-                                <div class="col-12 mb-3 mt-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
-                                    </div>
-                                </form>
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                            <div class="col-12 mb-3 mt-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                            </div>
+                        </form>
                     </section>
                 </div>
                 <div class="col-12 col-lg-6 col-xl-6 text-center p-3">
