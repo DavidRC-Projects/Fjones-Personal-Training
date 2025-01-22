@@ -54,6 +54,9 @@ header a {
 
 #navmenu a:hover {
     border-bottom: 1px solid var(--primary-color);
+    font-size: 110%;
+    color: var(--clr-highlight);
+    border-bottom: var(--clr-highlight);
 }
 
 .active {
@@ -97,6 +100,10 @@ h1 {
     font-family: var(--primary-font), sans serif;
     letter-spacing: 1px;
     margin-left: 15px;
+}
+
+h1:hover {
+    color: var(--clr-highlight);
 }
 
 h2,
