@@ -235,6 +235,11 @@ main {
     padding: 20px;
 }
 
+/*  star rating check colour */
+.checked {
+    color: orange;
+  }
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
