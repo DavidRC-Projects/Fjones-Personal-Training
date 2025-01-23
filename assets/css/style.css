@@ -277,6 +277,9 @@ main {
 /*  star rating check colour */
 .checked {
     color: orange;
+    font-size: 60%;
+    padding: 2px;
+    margin-left: 10px;
 }
 
 /* card styling */
