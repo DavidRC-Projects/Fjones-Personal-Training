@@ -291,7 +291,7 @@ main {
 
 /* card styling for form success pages */
 
-main .card {
+main .cardsuccess {
     background-color: var(--clr-primary);
     margin-top: 30px;
     border-radius: 15px;
