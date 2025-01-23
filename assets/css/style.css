@@ -20,6 +20,7 @@
 /* General styles */
 body {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -158,8 +159,11 @@ main {
     background-color: var(--clr-dark);
     flex: 1 0 auto;
     /* So that main element takes up surplus space to push the footer down */
-    margin-top: 89px;
+    margin-top: 50px;
     /* At 222 width breakpoint the boxshadow enlarges */
+    width: 100vw;
+    max-width: 100%;
+    box-sizing: border-box; /* stops padding and border affecting the width */
 }
 
 /* Removed margins from container for all pages and added padding */
@@ -287,7 +291,6 @@ footer {
 
     #navmenu>li {
         padding-left: 1rem;
-        margin-top: 40px;
     }
 
     .nav-toggle-label {
