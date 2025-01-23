@@ -128,7 +128,7 @@ h3~ul {
 
 #icons li i {
     color: var(--clr-highlight);
-    font-size: 140%;
+    font-size: 120%;
 }
 
 #icons li {
@@ -136,7 +136,7 @@ h3~ul {
 }
 
 #icons li:hover {
-    font-size: 130%;
+    font-size: 140%;
 }
 
 .contact-icons {
