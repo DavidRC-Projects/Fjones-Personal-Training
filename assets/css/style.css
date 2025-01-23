@@ -120,7 +120,7 @@ h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     letter-spacing: 3px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 h4 {
@@ -330,7 +330,7 @@ footer {
     }
 
     h2 {
-        margin-top: 30px;
+        margin-top: 70px;
     }
 
     /* Position table more to the left and down when screen size changes to desktop */
