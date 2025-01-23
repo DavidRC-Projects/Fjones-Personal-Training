@@ -162,6 +162,7 @@ p {
     font-family: var(--secondary-font);
     color: var(--primary-color);
     padding: 5px;
+    margin-bottom: 16px;
 }
 
 /* Main content */
@@ -224,6 +225,7 @@ main {
 .highlight {
     color: var(--clr-highlight);
     font-size: 120%;
+    padding: 3px;
 }
 
 /* Positioning of booking form with asterisk to override default styles */
