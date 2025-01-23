@@ -255,6 +255,11 @@ main {
     z-index: 0;
 }
 
+.content {
+    position: relative; /* Form content appears on top */
+    z-index: 1;
+}
+
 /*  iframe positioning */
 
 .iframe {
