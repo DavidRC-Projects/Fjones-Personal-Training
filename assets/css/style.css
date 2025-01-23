@@ -239,6 +239,14 @@ main {
     font-family: var(--secondary-font);
 }
 
+/* Form background image */
+#booking {
+    background: url("../assets/images/sitting.png");
+    height: 100vh;
+    background-size: cover;
+    z-index: 0;
+}
+
 /*  iframe positioning */
 
 .iframe {
