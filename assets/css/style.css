@@ -163,7 +163,8 @@ main {
     /* At 222 width breakpoint the boxshadow enlarges */
     width: 100vw;
     max-width: 100%;
-    box-sizing: border-box; /* stops padding and border affecting the width */
+    box-sizing: border-box;
+    /* stops padding and border affecting the width */
 }
 
 /* Removed margins from container for all pages and added padding */
@@ -232,8 +233,9 @@ main {
 /*  iframe positioning */
 
 .iframe {
-    display: flex; 
-    justify-content: center; /* Centre iframe horizontally */
+    display: flex;
+    justify-content: center;
+    /* Centre iframe horizontally */
     align-items: center;
     margin-top: 20px;
     padding: 20px;
@@ -242,7 +244,7 @@ main {
 /*  star rating check colour */
 .checked {
     color: orange;
-  }
+}
 
 /* Footer */
 footer {
@@ -269,6 +271,27 @@ footer {
 
 #social-links i:hover {
     font-size: 160%;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--clr-highlight);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-primary);
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -301,27 +324,6 @@ footer {
         margin-top: 30px;
     }
 
-     /* Scroll bar */
-        /* width */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
-
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: var(--clr-highlight);
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--clr-primary);
-        }
-
     /* Position table more to the left and down when screen size changes to desktop */
     .table {
         margin-left: 20px;
@@ -329,10 +331,15 @@ footer {
         font-family: var(--secondary-font);
     }
 
-    /* Highlight the heading of the table Asterisk to override default styles has not worked */
+    /* Highlight the heading of the table Asterisk to override default styles */
     #tableheading * {
         font-family: var(--primary-font);
         color: var(--clr-highlight)
+    }
+
+    /* Added to make the container fit the screen width when on larger screens */
+    .container {
+        min-width: 100%;
     }
 }
 
