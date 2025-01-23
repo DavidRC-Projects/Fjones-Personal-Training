@@ -224,7 +224,7 @@ main {
 /* Styling using spans to highlight important words in about me page */
 .highlight {
     color: var(--clr-highlight);
-    font-size: 120%;
+    font-size: 110%;
     padding: 3px;
 }
 
