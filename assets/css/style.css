@@ -255,6 +255,34 @@ main {
     color: orange;
 }
 
+/* card styling */
+
+.card-img-top {
+    height: 185px;
+    object-fit: cover;
+}
+
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--clr-highlight);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--clr-primary);
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
@@ -280,27 +308,6 @@ footer {
 
 #social-links i:hover {
     font-size: 160%;
-}
-
-/* Scroll bar */
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--clr-highlight);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--clr-primary);
 }
 
 /* Media query: tablets and larger (768px and up) */
