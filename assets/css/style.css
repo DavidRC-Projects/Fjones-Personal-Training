@@ -36,11 +36,18 @@ header {
     box-shadow: 0 1px 1px var(--primary-color);
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 header a {
     text-decoration: none;
     color: var(--primary-color);
+}
+
+header h1 {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
 }
 
 #navmenu {
@@ -100,7 +107,7 @@ nav {
 h1 {
     font-family: var(--primary-font), sans serif;
     letter-spacing: 1px;
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 10px;
 }
 
@@ -307,7 +314,7 @@ footer {
         width: fit-content;
         padding-right: 1rem;
         margin-left: auto;
-        /* Added to move navbar to the right side and moved back to middle when adding media query */
+        /* Added to move navbar to the right side */
     }
 
     #navmenu {
