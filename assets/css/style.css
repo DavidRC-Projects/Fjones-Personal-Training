@@ -289,6 +289,15 @@ main {
     object-fit: cover;
 }
 
+/* card styling for form success pages */
+
+main .card {
+    background-color: var(--clr-primary);
+    margin-top: 30px;
+    border-radius: 15px;
+    opacity: 90%;
+}
+
 /* Scroll bar */
 /* width */
 ::-webkit-scrollbar {
