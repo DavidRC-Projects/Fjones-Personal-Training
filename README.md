@@ -44,10 +44,6 @@ The primary goal of this webpage is to serve as a platform for my friend's busin
 * To increase awareness of his brand by establishing a strong online presence by increasing visibility on search engines that will highlight his experience.
 * The webpage will make administrive tasks easier by using an automated system that will organise time slots from his clients and make it easier to track payments as currently uses a paper diary to record this.
 
-## Features
-
-
-
 ## Design
 
 ### Colour Scheme
@@ -97,3 +93,16 @@ Wireframes were created for desktops, tablet and mobile using figma.
 
 ![wireframehomepage](assets/img-readme/contact.png)
 
+## Features
+
+The website is designed to offer a seamless experience through the following pages:
+
+* Home Page: This is the starting point where new clients or existing clients can have an overview of what the trainer offers and availiability. 
+
+* About Me Page: This page gives a deeper dive into the trainers expereince and why the user should choose his services.
+
+* Booking Page: This page has been developed for enquires and to send a date and time the user would like to book an appointment.
+
+* Contact Page: This page was developed for the user to reach out for any enquiries.
+
+* Booking confirmation pages: This was developed for the booking form and feedback form to indicate to the user that their request has been submitted. 
