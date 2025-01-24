@@ -37,9 +37,9 @@ Frequent Visitor Goals
 
 ### Colour Scheme
 
-I used a colour image picker to select colours from the logo, ensuring consistent colour usage across the webpage. To create visually appealing design, i chose a dark background, accented with purple to highlight specific elements. The use of purple can help reinforce brand identity and can make key components stand out to engage users.
+I used a colour image picker to select colours from the logo, ensuring consistent colour usage across the webpage. To create visually appealing design, i chose a dark background, accented with purple to highlight specific elements. The use of purple can help reinforce brand identity and can make key components stand out to engage users. Initially i created a logo for the website, however i made a conscious descision that actual images of the trainer would be more engaging and add familiarity for the users. Therefore, despite this the colours stayed consistent throughout the webpages with variables used to make it easier to change in the future.  
 
-![imagecolorpickerlogo](assets/images/imagecolorpickerlogo.png)
+![imagecolorpickerlogo](assets/img-readme/imagecolorpickerlogo.png)
 
 I have used the following Hex colours:
 
@@ -49,4 +49,17 @@ I have used the following Hex colours:
  #7A0BEA;
  #bcbcbc;
 
+### Typography
+
+I have used google fonts to import fonts.
+
+I have used Marvel font for my main headings as i felt this looked sharp and modern.
+
+I used Montserrat as my secondary font. I researched on google good fonts for readability and headings and consciously decided this was the most appealing font to go along side the marvel font.
+
+### Wireframes
+
+Wireframes were created for desktops, tablet and mobile using figma.
+
+![wireframehomepage](assets/img-readme/wireframehomepage.png)
 
