@@ -106,3 +106,48 @@ The website is designed to offer a seamless experience through the following pag
 * Contact Page: This page was developed for the user to reach out for any enquiries.
 
 * Booking confirmation pages: This was developed for the booking form and feedback form to indicate to the user that their request has been submitted. 
+
+* Error 404 page: This was added incase the page is not able to load or has been deleted and sends the user back to the homepage.
+
+All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements.
+
+* Favicon and title
+
+* Navigation bar
+
+* Footer
+
+* Home page
+headings
+columns
+carousel
+table
+cards
+
+* About me page
+span elements
+image
+
+* Booking and testimonial pages
+forms
+container for testimonials page
+background image
+date picker (copied from geeksforgeeks.org)
+star rating (W3schools)
+booking success pages - Opacity (W3schools)
+booking validation for white space validator (stackoverflow.com)
+
+
+* Contact
+embedded Google maps (researched on google and found option to embed code into my work as the url link was blocked)
+container for contact details
+
+* Buttons (Bootstrap 5)
+
+scroll bar (copied from W3schools)
+
+* Hover (CSS Pseudo-classes on W3schools)
+
+CSS variables (Boardwalk games and W3schools)
+
+* Error 404 page (udacity.com)
