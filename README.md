@@ -2,11 +2,18 @@
 
 ## Introduction
 
-The primary goal of this webpage is to serve as a platform for my friend's business. Currently, my friend does not have a website and relies on word-of-mouth to build his client base. This site aims to offer an engaging and informative introduction to his qualifications, experience, and training philosophy. It will also provide details about one-on-one training sessions, group training, nutritional guidance and customised workout plans. Additionally, the webpage will feature a booking system and accessible contact options, making it easy for potential clients to reach out, ask questions, and schedule consultations.
+The primary goal of this webpage is to serve as a platform for my friend's business. Currently, my friend does not have a website and relies on word-of-mouth to build his client base. This site aims to offer an engaging and informative introduction to his experience, training philosophy and what he can offer. It will also provide details about one-on-one training sessions, group training, nutritional guidance and customised workout plans. Additionally, the webpage will feature a booking system and accessible contact options, making it easier for the potential clients to reach out, ask questions, and schedule consultations. This will hopefully bring in new business and target people from any training level that want to improve their strength or fitness.
 
 ## CONTENTS
 [User Experience]
 [User Stories]
+
+[Features]
+
+[Design]
+* Colour scheme
+* Typography
+* Wireframes
 
 ## User Experience (UX)
 
@@ -35,6 +42,8 @@ Frequent Visitor Goals
 * To increase awareness of his brand by establishing a strong online presence by increasing visibility on search engines that will highlight his experience and qualifications.
 * The webpage will make administrive tasks easier by using an automated system that will organise time slots from his clients and make it easier to track payments as currently uses a paper diary to record this.
 
+## Design
+
 ### Colour Scheme
 
 I used a colour image picker to select colours from the logo, ensuring consistent colour usage across the webpage. To create visually appealing design, i chose a dark background, accented with purple to highlight specific elements. The use of purple can help reinforce brand identity and can make key components stand out to engage users. Initially i created a logo for the website, however i made a conscious descision that actual images of the trainer would be more engaging and add familiarity for the users. Therefore, despite this the colours stayed consistent throughout the webpages with variables used to make it easier to change in the future.  
@@ -61,5 +70,8 @@ I used Montserrat as my secondary font. I researched on google good fonts for re
 
 Wireframes were created for desktops, tablet and mobile using figma.
 
+### Homepage (index.html)
 ![wireframehomepage](assets/img-readme/wireframehomepage.png)
+
+
 
