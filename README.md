@@ -109,13 +109,29 @@ The website is designed to offer a seamless experience through the following pag
 
 * Error 404 page: This was added incase the page is not able to load or has been deleted and sends the user back to the homepage.
 
-All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements.
+All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively.
 
 * Favicon and title
 
-* Navigation bar
+![wireframehomepage](assets/img-readme/faviconandtitle.png)
+
+* Header and navigation bar
+
+![wireframehomepage](assets/img-readme/header.png)
+The header includes a h1 element that links back to the homepage. 
+The navigation bar stays in a fixed position on the screen and has the text underlined when your on a particular page. The navigation bar will also change colour as you hover over each option. This is also responsive to different screen sizes and will turn into an icon on mobile devices, in which the options will drop down in a list.
+
+Navbar icon
+
+![wireframehomepage](assets/img-readme/navdropdownicon.png)
+
+Navbar dropdown
+
+![wireframehomepage](assets/img-readme/navdropdown.png)
 
 * Footer
+
+![wireframehomepage](assets/img-readme/footer.png)
 
 * Home page
 headings
@@ -136,7 +152,6 @@ date picker (copied from geeksforgeeks.org)
 star rating (W3schools)
 booking success pages - Opacity (W3schools)
 booking validation for white space validator (stackoverflow.com)
-
 
 * Contact
 embedded Google maps (researched on google and found option to embed code into my work as the url link was blocked)
