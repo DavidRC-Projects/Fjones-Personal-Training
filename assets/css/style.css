@@ -224,8 +224,7 @@ main {
 /* Styling using spans to highlight important words in about me page */
 .highlight {
     color: var(--primary-color);
-    font-size: 110%;
-    padding: 3px;
+    font-weight: bold; 
 }
 
 /* Positioning of booking form with asterisk to override default styles */
