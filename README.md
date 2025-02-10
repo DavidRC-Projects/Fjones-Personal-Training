@@ -4,6 +4,10 @@
 
 The primary goal of this webpage is to serve as a platform for my friend's business. Currently, my friend does not have a website and relies on word-of-mouth to build his client base. This site aims to offer an engaging and informative introduction to his experience, training philosophy and what he can offer. It will also provide details about one-on-one training sessions, group training, nutritional guidance and customised workout plans. Additionally, the webpage will feature a booking system and accessible contact options, making it easier for the potential clients to reach out, ask questions, and schedule consultations. This will hopefully bring in new business and target people from any training level that want to improve their strength or fitness.
 
+![wireframehomepage](assets/img-readme/homepage.png)
+
+Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://davidrc-projects.github.io/Fjones-Personal-Training/)
+
 ## CONTENTS
 
 [User Experience]
@@ -141,9 +145,7 @@ The footer maintains a consistent colour with icons that enlarge when you hover 
 
 - Home page
 
-![wireframehomepage](assets/img-readme/homepage.png)
-
-Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://davidrc-projects.github.io/Fjones-Personal-Training/)
+![wireframehomepage](assets/img-readme/homepage2.png)
 
 The home page is divided into two responsive containers that adapt to all screen sizes. I used a Bootstrap carousel with 2 images and a table of his availiability that adjusts dynamically, displaying as a single column on mobile devices and two columns on desktop screens and larger. The second container features cards with images showcasing the trainer's offerings. Additionally, an h2 heading presents a welcome message, accompanied by text in a paragraph designed to inspire and highlight the site's purpose. Under the table there is a "Book Now" button that has a link for the user to go to booking page.
 
@@ -155,28 +157,81 @@ The About Me page follows a similar format to the homepage, featuring a containe
 
 The second container includes three cards that is the same as the homepage. The layout is fully responsive, adjusting to a single column on mobile devices and three columns on larger screens for optimal readability.
 
-span elements
-image
-
 - Booking and testimonial pages
-  forms
-  container for testimonials page
-  background image
+
+Booking page
+
+![wireframehomepage](assets/img-readme/bookingpage.png)
+
+The booking inquiry page will allow the user to submit their details and request a specific date and time for their first session. This page includes a textarea for the user to leave a message and a submit button that takes the user to another page upon submission. I have used bootstrap 5 to provide a responsive layout and an image in the background to make the page more engaging and enhance the user experience.
+
+ Please see the booking success page below:
+
+Booking success page
+
+![wireframehomepage](assets/img-readme/bookingsuccess.png)
+
+Testimonials page
+
+![wireframehomepage](assets/img-readme/testimonialspage.png)
+
+This page has been developed using bootstrap 5 and will help the user provide feedback on their training sessions with a textarea and a star rating. On desktop and larger the screen splits into 2 columns. The left section of the page has a feedback form and a drop down menu down menu to provide the star rating. There is a submit button below that takes the user to a feedback success page to let the user know their feedback has been submitted. Please see an example below. The right side of the page displays testimonials provided from his clients with his star ratings. On smaller screens like mobile devices the screen adjusts to one column with the input fields at the top of the page and testimonials at the bottom.
+
+Feedback success page
+
+![wireframehomepage](assets/img-readme/feedbacksuccess.png)
+
   date picker (copied from geeksforgeeks.org)
   star rating (W3schools)
   booking success pages - Opacity (W3schools)
   booking validation for white space validator (stackoverflow.com)
 
-- Contact
+- Contact page
+
+This page will provide the user the necessary information to locate the gym and multiple options for getting in touch with the trainer. The page has been developed with a responsive bootstrap 5 layout. I have placed headings to guide the user and embedded a google map that includes the location of the gym and is resposive to different screen sizes. Below the google map i have used icons from font awesome to give the user 3 options to contact the trainer. This makes it visually easier and more accessable for the user the identify how they want to contact the trainer. The 'Contact Me' section is split into 3 columns on desktop and larger screens and stack ontop of eachother when in smaller screens. 
+
+![wireframehomepage](assets/img-readme/contactpage.png)
+
   embedded Google maps (researched on google and found option to embed code into my work as the url link was blocked)
-  container for contact details
+  
+- Buttons
 
-- Buttons (Bootstrap 5)
+All buttons throughout the site maintain a consistent design and hover effect to improve the user experience. The buttons are styled using CSS and bootstrap 5. The buttons all have a hover effect using variables to change the colour from purple to white, indicating to the user they are hovering over the button.
 
-scroll bar (copied from W3schools)
+![wireframehomepage](assets/img-readme/buttons.png)
+![wireframehomepage](assets/img-readme/buttonhover.png)
+
+
+- scroll bar (copied from W3schools)
+
+I have added a customised scroll bar that changes colour from purple to dark purple when the user hovers over to interact with the bar. This bar stays consistent with he colours used through the sites design.
+
+![wireframehomepage](assets/img-readme/scrollbar.png)
+![wireframehomepage](assets/img-readme/scrollhighlight.png)
 
 - Hover (CSS Pseudo-classes on W3schools)
 
-CSS variables (Boardwalk games and W3schools)
+To improve user interaction the icons across the site i have implemented a hover effect that increases in size when hovered over. Also to maintain a consistent style, all buttons across the site have the same background colour that changes as you hover over.
+
+Icons Hover effect
+![wireframehomepage](assets/img-readme/icon.png)
+![wireframehomepage](assets/img-readme/iconhover.png)
+
+Buttons Hover effect
+![wireframehomepage](assets/img-readme/button.png)
+![wireframehomepage](assets/img-readme/buttonhover.png)
+
 
 - Error 404 page (udacity.com)
+
+The site includes a custom 404 error page to enhance user experience when a page doesn't exist anymore or is broken. This contains a message telling the user that the page cannot be loaded or doesn't exist with a button to give them the option to return to the homepage. This uses a background image used in the booking page and consistent colours with the other webpages. Bootstrap has been used to create a card that has been used in both the booking success and feedback success pages.
+
+![wireframehomepage](assets/img-readme/error404page.png)
+
+## Future implentations
+
+- Booking form
+
+
+
+CSS variables (Boardwalk games and W3schools)
