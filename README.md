@@ -185,25 +185,33 @@ This page will provide the user the necessary information to locate the gym and 
 
 ## Accessibility
 
+### General Site Strucutre
+
 All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively.
 
-- Buttons
+### Buttons
 
 All buttons throughout the site maintain a consistent design and hover effect to improve the user experience. The buttons are styled using CSS and bootstrap 5. The buttons all have a hover effect using variables to change the colour from purple to white, indicating to the user they are hovering over the button.
 
-- scroll bar (copied from W3schools)
+### Custom scroll bar
 
 I have added a customised scroll bar that changes colour from purple to dark purple when the user hovers over to interact with the bar. This bar stays consistent with he colours used through the sites design.
 
-- Hover (CSS Pseudo-classes on W3schools)
+### Hover effects
 
 To improve user interaction the icons across the site i have implemented a hover effect that increases in size when hovered over. Also to maintain a consistent style, all buttons across the site have the same background colour that changes as you hover over.
 
-- Error 404 page (udacity.com)
+### Error 404 page
 
 The site includes a custom 404 error page to enhance user experience when a page doesn't exist anymore or is broken. This contains a message telling the user that the page cannot be loaded or doesn't exist with a button to give them the option to return to the homepage. This uses a background image used in the booking page and consistent colours with the other webpages. Bootstrap has been used to create a card that has been used in both the booking success and feedback success pages.
 
 ![wireframehomepage](assets/img-readme/error404page.png)
+
+### Colour contrast improvements
+
+A contrast checker was used to ensure the text was readable on the background. The original hex code #7A0BEA (purple) used in the spoan elements on the About Me page had a low contrast rating (3.06) and was replaced with #FFFFFF (white) to improve its readbility.
+
+![wireframehomepage](assets/img-readme/colour-contrast-fail.png) ![wireframehomepage](assets/img-readme/colour-contrast-pass.png)
 
 ## Future implementations
 
@@ -242,3 +250,6 @@ CSS variables (Boardwalk games and W3schools)
   star rating (W3schools)
   booking success pages - Opacity (W3schools)
   booking validation for white space validator (stackoverflow.com)
+  scroll bar (copied from W3schools)
+  Hover (CSS Pseudo-classes on W3schools)
+  Error 404 page (udacity.com)
