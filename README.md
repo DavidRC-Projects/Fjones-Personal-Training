@@ -117,8 +117,6 @@ The website is designed to offer a seamless experience through the following pag
 
 - Error 404 page: This was added incase the page is not able to load or has been deleted and sends the user back to the homepage.
 
-All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively.
-
 - Favicon and title
 
 ![wireframehomepage](assets/img-readme/faviconandtitle.png)
@@ -177,15 +175,6 @@ Testimonials page
 
 This page has been developed using bootstrap 5 and will help the user provide feedback on their training sessions with a textarea and a star rating. On desktop and larger the screen splits into 2 columns. The left section of the page has a feedback form and a drop down menu down menu to provide the star rating. There is a submit button below that takes the user to a feedback success page to let the user know their feedback has been submitted. Please see an example below. The right side of the page displays testimonials provided from his clients with his star ratings. On smaller screens like mobile devices the screen adjusts to one column with the input fields at the top of the page and testimonials at the bottom.
 
-Feedback success page
-
-![wireframehomepage](assets/img-readme/feedbacksuccess.png)
-
-  date picker (copied from geeksforgeeks.org)
-  star rating (W3schools)
-  booking success pages - Opacity (W3schools)
-  booking validation for white space validator (stackoverflow.com)
-
 - Contact page
 
 This page will provide the user the necessary information to locate the gym and multiple options for getting in touch with the trainer. The page has been developed with a responsive bootstrap 5 layout. I have placed headings to guide the user and embedded a google map that includes the location of the gym and is resposive to different screen sizes. Below the google map i have used icons from font awesome to give the user 3 options to contact the trainer. This makes it visually easier and more accessable for the user the identify how they want to contact the trainer. The 'Contact Me' section is split into 3 columns on desktop and larger screens and stack ontop of eachother when in smaller screens. 
@@ -193,34 +182,22 @@ This page will provide the user the necessary information to locate the gym and 
 ![wireframehomepage](assets/img-readme/contactpage.png)
 
   embedded Google maps (researched on google and found option to embed code into my work as the url link was blocked)
-  
+
+## Accessibility
+
+All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively.
+
 - Buttons
 
 All buttons throughout the site maintain a consistent design and hover effect to improve the user experience. The buttons are styled using CSS and bootstrap 5. The buttons all have a hover effect using variables to change the colour from purple to white, indicating to the user they are hovering over the button.
-
-![wireframehomepage](assets/img-readme/buttons.png)
-![wireframehomepage](assets/img-readme/buttonhover.png)
-
 
 - scroll bar (copied from W3schools)
 
 I have added a customised scroll bar that changes colour from purple to dark purple when the user hovers over to interact with the bar. This bar stays consistent with he colours used through the sites design.
 
-![wireframehomepage](assets/img-readme/scrollbar.png)
-![wireframehomepage](assets/img-readme/scrollhighlight.png)
-
 - Hover (CSS Pseudo-classes on W3schools)
 
 To improve user interaction the icons across the site i have implemented a hover effect that increases in size when hovered over. Also to maintain a consistent style, all buttons across the site have the same background colour that changes as you hover over.
-
-Icons Hover effect
-![wireframehomepage](assets/img-readme/icon.png)
-![wireframehomepage](assets/img-readme/iconhover.png)
-
-Buttons Hover effect
-![wireframehomepage](assets/img-readme/button.png)
-![wireframehomepage](assets/img-readme/buttonhover.png)
-
 
 - Error 404 page (udacity.com)
 
@@ -247,6 +224,8 @@ The site includes a custom 404 error page to enhance user experience when a page
 
 ## Testing
 
+
+
 ## Deployment
 
 ## Credits
@@ -258,3 +237,8 @@ The site includes a custom 404 error page to enhance user experience when a page
 ### Other General Project Advice
 
 CSS variables (Boardwalk games and W3schools)
+
+ date picker (copied from geeksforgeeks.org)
+  star rating (W3schools)
+  booking success pages - Opacity (W3schools)
+  booking validation for white space validator (stackoverflow.com)
