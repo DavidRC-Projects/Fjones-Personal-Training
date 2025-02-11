@@ -270,6 +270,13 @@ Validation check
 
 ![wireframehomepage](assets/img-readme/h1layoutissue.png)![wireframehomepage](assets/img-readme/h1layoutfix.png)
 
+### Automated Testing
+
+
+
+### Validator Testing
+
+
 
 ## Deployment
 

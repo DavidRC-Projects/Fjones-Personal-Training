@@ -143,6 +143,7 @@ h3~ul {
 
 #icons li {
     letter-spacing: 2px;
+    padding: 10px;
 }
 
 #icons li:hover {
