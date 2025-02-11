@@ -272,6 +272,24 @@ Validation check
 
 ### Automated Testing
 
+I used Lighthouse in Google Chrome DevTools to analyse my website's performance, accessibility and best practices.
+
+#### Identified issues and fixes
+
+Homepage
+1. Image Resolution (Performance - 97%)
+The first image on the carousel could have had a better resolution to improve the best practice score. However, this image was provided by the trainer, and I was unable to obtain a higher-resolution version thus not fixing this issue.
+
+2. List with Icons (Accessibility - 94%)
+There were line break affecting the screen reader accessibility, therefore i adjusted this by removing the line breaks and adding padding around these elements.
+
+3. Heading Hierarchy (Accessibility - 94%)
+The heading strcuture for the Core Training Areas section was incorrect. I changed these elements from h2 to h4 to follow the correct order.
+
+The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 97% Performance.
+
+About me page
+
 
 
 ### Validator Testing
