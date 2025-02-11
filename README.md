@@ -277,6 +277,7 @@ I used Lighthouse in Google Chrome DevTools to analyse my website's performance,
 #### Identified issues and fixes
 
 Homepage
+
 1. Image Resolution (Performance - 97%)
 The first image on the carousel could have had a better resolution to improve the best practice score. However, this image was provided by the trainer, and I was unable to obtain a higher-resolution version thus not fixing this issue.
 
@@ -290,7 +291,18 @@ The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 
 
 About me page
 
+1. Cumulative Layout Shift (CLS) Issue
+This page had a CLS of 0.134s, exceeding the recomended 0.1s. The following fixes were attempted:
+I reduced the word count on the h2 element that lowered the CLS to 0.127s. I then moved the H2 element above the section container and further reduced this to 0.108s. I finally edited the paragrpah content that was still highlighting an issue. Despite this the CLS remained unchanged at 0.108s. 
 
+The CLS issue persisted due to an unknown cause related to the paragraph 'what sets Francis apart is his deep-rooted passion for nutrition'. While diferent solutions were tested, the exact reason for this paragraph contributing to the CLS could not be identified. Therefore, further investigation is needed to find the root cause. 
+
+cumulative layout shift 0.134s. I reduced the h2 heading word count, which changed this value to 0.127s. However, this is still above the recommended 0.1. After this moved h2 element above section, which improved this layout shift. However, the cumulative Layout shift was still 0.108 due to one of the paragraphs.
+
+2. Heading Hierarchy (Accessibility - 98%)
+The heading strcuture for the Core Training Areas section was incorrect. I changed these elements from h2 to h4 to follow the correct order.
+
+The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 95% Performance.
 
 ### Validator Testing
 
