@@ -147,6 +147,7 @@ h3~ul {
 
 #icons li:hover {
     font-size: 140%;
+    transition-delay: 0.4s;
 }
 
 .contact-icons {

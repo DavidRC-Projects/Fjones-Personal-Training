@@ -187,7 +187,7 @@ This page will provide the user the necessary information to locate the gym and 
 
 ### General Site Strucutre
 
-All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively.
+All pages have a favicon item, title of 'Francis Jones Personal Training' and a h1 element of 'Francis Jones Fitness' that links every page with an anchor element back to the home page. There is a navigation bar and footer on each page that includes anchor elements to navigate the website and access his social media links respectively. Each page of the website has an accessibility rating of 94-100.
 
 ### Buttons
 
@@ -213,6 +213,8 @@ A contrast checker was used to ensure the text was readable on the background. T
 
 ![wireframehomepage](assets/img-readme/colour-contrast-fail.png) ![wireframehomepage](assets/img-readme/colour-contrast-pass.png)
 
+
+
 ## Future implementations
 
 1. Booking form
@@ -232,11 +234,14 @@ A contrast checker was used to ensure the text was readable on the background. T
 
 ## Testing
 
+### Manual testing
 
 
 ## Deployment
 
 ## Credits
+
+Transition hover effects https://stackoverflow.com/questions/19469495/css-slow-hover-effect
 
 ### Content
 
