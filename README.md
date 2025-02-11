@@ -236,6 +236,40 @@ A contrast checker was used to ensure the text was readable on the background. T
 
 ### Manual testing
 
+#### Responsiveness testing
+
+- Used the inspect element tool in Google Chrone to check different screen sizes (mobile, tablet, desktop and larger screens).
+- Ensured all webpages adapt properly to different screen widths.
+
+#### Navigation and link testing
+
+- Verified that all navigation links direct users to the correct pages.
+- Tested the h1 element, navigation bar, buttons, and social media icons to confirm they link to there respective pages.
+
+#### Hover effects and User interaction
+- Checked hover effects on:
+- h1 element
+- Navigation bar
+- Tables
+- Icons
+- Buttons
+- Social media links
+
+#### Form Validation and Redirection
+- Tested the booking enquiry and feedback forms to confirm they:
+- Redirect users to the correct successpage after submission.
+- Display validation messages when required fields (marked with an asterisk) are left empty.
+- Prevent submission of inputs containing only whitespace.
+
+Validation check
+
+![wireframehomepage](assets/img-readme/validationcheck.png)
+
+#### Layout and UI fixes
+- Identified and resolved an issue where the h1 element had a line break on every page expect the index page.
+
+![wireframehomepage](assets/img-readme/h1layoutissue.png)![wireframehomepage](assets/img-readme/h1layoutfix.png)
+
 
 ## Deployment
 
