@@ -323,7 +323,17 @@ The use of an embedded Google maps resulted in 13 third-party cookies, lowering 
 
 The overall outcome after fixes were 78% Best Practice, 100% Accessibility and 100% Performance.
 
-added h3 element to media query to add margin top when larger than 768px and up
+404 page
+This page had 100% on Best Practice, Accessibility and Performance.
+
+Booking success page
+1. Missing meta name, charset declaration and html doctype detailed in lighthouse. However, on inspection this error was due to the <!DOCTYPE html> tag missing a <. Also another issue was Unused code due to font awesoe that was removed. (Best Practices - 89% ).  
+
+The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 99% Performance.
+
+Feedback success page
+
+This page had 100% on Best Practice, Accessibility and Performance.
 
 ### Validator Testing
 
