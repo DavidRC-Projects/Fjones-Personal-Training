@@ -385,7 +385,7 @@ footer {
   }
 
   /* Highlight the heading of the table Asterisk to override default styles */
-  #tableheading * {
+  .tableheading * {
     font-family: var(--primary-font);
     color: var(--clr-highlight);
   }
