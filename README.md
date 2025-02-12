@@ -343,7 +343,7 @@ I used [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate
 
 I used [Autoprefixer CSS online](https://autoprefixer.github.io/). There are styles in font awesome that may not load on other browses than chrome, therefore this was used to identify any additional code required and make the website more accessable. 
 
-See TESTING.md for more details. 
+See [TESTING.md](TESTING.md) for more details of the tests completed.
 
 ## Deployment
 

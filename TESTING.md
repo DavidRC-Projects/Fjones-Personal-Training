@@ -40,3 +40,34 @@
 ![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
 
 ### Results W3C HTML validator
+
+##### Homepage - W3C Validation Check
+There were 22 errors identified, which were corrected as follows:
+1. Added div to container due to the container tag not being closed.
+2. Changed duplicate id attributes to class.
+3. Removed multiple <tr> without any cells.
+
+After the above changes the validation passed. Please see homepage validation errors below:
+
+![wc3checkindex](assets/img-readme/wc3checkindex1.png)
+![wc3checkindex](assets/img-readme/wc3checkindex2.png)
+![wc3checkindex](assets/img-readme/wc3checkindex3.png)
+![wc3checkindex](assets/img-readme/wc3checkindex4.png)
+![wc3checkindex](assets/img-readme/wc3checkindex5.png)
+
+##### About me page - W3C Validation Check
+There were 2 errors identified, which were corrected as follows:
+1. Added div element to container as the tag was not closed.
+
+After the above changes the validation passed. Please see homepage validation errors below:
+
+![wc3checkindex](assets/img-readme/wc3checkaboutme.png)
+
+##### Booking page - W3C Validation Check
+There were 7 errors identified, which were corrected as follows:
+1. 
+
+After the above changes the validation passed. Please see homepage validation errors below:
+
+![wc3checkindex](assets/img-readme/wc3checkbooking1.png)
+![wc3checkindex](assets/img-readme/wc3checkbooking2.png)
