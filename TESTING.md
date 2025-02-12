@@ -38,3 +38,5 @@
 #### Feedback success page
 
 ![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
+
+### Results W3C HTML validator

@@ -337,7 +337,13 @@ This page had 100% on Best Practice, Accessibility and Performance.
 
 ### Validator Testing
 
+I used [W3C](https://validator.w3.org/#validate_by_input) to validate the HTML code on every page of the website.
 
+I used [W3C](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my CSS code on every page of the website.
+
+I used [Autoprefixer CSS online](https://autoprefixer.github.io/). There are styles in font awesome that may not load on other browses than chrome, therefore this was used to identify any additional code required and make the website more accessable. 
+
+See TESTING.md for more details. 
 
 ## Deployment
 
