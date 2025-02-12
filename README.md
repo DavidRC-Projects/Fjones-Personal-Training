@@ -234,6 +234,8 @@ A contrast checker was used to ensure the text was readable on the background. T
 
 ## Testing
 
+Please see TESTING.md for further details on testing.
+
 ### Manual testing
 
 #### Responsiveness testing
@@ -297,12 +299,34 @@ I reduced the word count on the h2 element that lowered the CLS to 0.127s. I the
 
 The CLS issue persisted due to an unknown cause related to the paragraph 'what sets Francis apart is his deep-rooted passion for nutrition'. While diferent solutions were tested, the exact reason for this paragraph contributing to the CLS could not be identified. Therefore, further investigation is needed to find the root cause. 
 
-cumulative layout shift 0.134s. I reduced the h2 heading word count, which changed this value to 0.127s. However, this is still above the recommended 0.1. After this moved h2 element above section, which improved this layout shift. However, the cumulative Layout shift was still 0.108 due to one of the paragraphs.
-
 2. Heading Hierarchy (Accessibility - 98%)
 The heading strcuture for the Core Training Areas section was incorrect. I changed these elements from h2 to h4 to follow the correct order.
 
 The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 95% Performance.
+
+Booking page
+
+This page had 100% on Best Practice, Accessibility and Performance.
+
+Testimonials page
+1. Heading Hierarchy (Accessibility - 98%)
+The heading strucuture did not follow a semantic order, which lowered the accessibility. The title 'Testimonials' was originally an h2 element, but changing it to an h3 element corrected the strucuture.
+
+The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 100% Performance.
+
+Contact us page
+1. Missing Title for iframe (Accessibility - 95%)
+The iframe was missing a title attribute, which negatively, impacted accessibility. Adding a descriptive title improved accessibility score.
+
+2. Embedded Google Maps (Best Practices - 78%)
+The use of an embedded Google maps resulted in 13 third-party cookies, lowering the best practice score. Unfortunately, i was unable to use other methods as access was blocked by google.
+
+The overall outcome after fixes were 78% Best Practice, 100% Accessibility and 100% Performance.
+
+
+
+
+added h3 element to media query to add margin top when larger than 768px and up
 
 ### Validator Testing
 
