@@ -29,6 +29,12 @@
 
 #### Error 404 page
 
+![lighthousetesting](assets/img-readme/lighthouse-404.png)
+
 #### Booking success page
 
+![lighthousetesting](assets/img-readme/lighthouse-bookingsuccess.png)
+
 #### Feedback success page
+
+![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
