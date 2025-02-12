@@ -234,7 +234,7 @@ A contrast checker was used to ensure the text was readable on the background. T
 
 ## Testing
 
-Please see TESTING.md for further details on testing.
+
 
 ### Manual testing
 
@@ -295,14 +295,14 @@ About me page
 
 1. Cumulative Layout Shift (CLS) Issue
 This page had a CLS of 0.134s, exceeding the recomended 0.1s. The following fixes were attempted:
-I reduced the word count on the h2 element that lowered the CLS to 0.127s. I then moved the H2 element above the section container and further reduced this to 0.108s. I finally edited the paragrpah content that was still highlighting an issue. Despite this the CLS remained unchanged at 0.108s. 
+I reduced the word count on the h2 element that lowered the CLS to 0.127s. I then moved the H2 element above the section container and further reduced this to 0.113s. I finally edited the paragrpah content that was still highlighting an issue. Despite this the CLS remained unchanged at 0.113s. 
 
 The CLS issue persisted due to an unknown cause related to the paragraph 'what sets Francis apart is his deep-rooted passion for nutrition'. While diferent solutions were tested, the exact reason for this paragraph contributing to the CLS could not be identified. Therefore, further investigation is needed to find the root cause. 
 
 2. Heading Hierarchy (Accessibility - 98%)
 The heading strcuture for the Core Training Areas section was incorrect. I changed these elements from h2 to h4 to follow the correct order.
 
-The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 95% Performance.
+The overall outcome after fixes were 100% Best Practice, 100% Accessibility and 94% Performance.
 
 Booking page
 
@@ -322,9 +322,6 @@ The iframe was missing a title attribute, which negatively, impacted accessibili
 The use of an embedded Google maps resulted in 13 third-party cookies, lowering the best practice score. Unfortunately, i was unable to use other methods as access was blocked by google.
 
 The overall outcome after fixes were 78% Best Practice, 100% Accessibility and 100% Performance.
-
-
-
 
 added h3 element to media query to add margin top when larger than 768px and up
 
