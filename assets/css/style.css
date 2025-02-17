@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
@@ -22,8 +29,13 @@
 body {
   min-height: 100vh;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 /* Header */
@@ -34,11 +46,19 @@ header {
   position: fixed;
   z-index: 50;
   width: 100%;
-  box-shadow: 0 1px 1px var(--primary-color);
+  -webkit-box-shadow: 0 1px 1px var(--primary-color);
+          box-shadow: 0 1px 1px var(--primary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 header a {
@@ -79,7 +99,8 @@ nav {
   width: 100%;
   left: 0;
   padding: 0 0.5rem;
-  box-shadow: 0 1px 1px var(--primary-color);
+  -webkit-box-shadow: 0 1px 1px var(--primary-color);
+          box-shadow: 0 1px 1px var(--primary-color);
   display: none;
   top: 100%;
 }
@@ -148,7 +169,9 @@ h3 ~ ul {
 
 #icons li:hover {
   font-size: 140%;
-  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+       -o-transition-delay: 0.4s;
+          transition-delay: 0.4s;
 }
 
 .contact-icons {
@@ -170,13 +193,16 @@ p {
 /* Main content */
 main {
   background-color: var(--clr-dark);
-  flex: 1 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
   /* So that main element takes up surplus space to push the footer down */
   margin-top: 50px;
   /* At 222 width breakpoint the boxshadow enlarges */
   width: 100vw;
   max-width: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   /* stops padding and border affecting the width */
 }
 
@@ -232,9 +258,15 @@ main {
 /* Positioning of booking form with asterisk to override default styles */
 
 .row • {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*  form label styles */
@@ -254,7 +286,8 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: absolute;
   z-index: 0;
 }
@@ -267,10 +300,16 @@ main {
 /*  iframe positioning */
 
 .iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   /* Centre iframe horizontally */
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
   padding: 20px;
 }
@@ -287,7 +326,8 @@ main {
 
 .card-img-top {
   height: 185px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* card styling for form success pages */
@@ -333,8 +373,12 @@ footer {
 #social-links {
   text-align: center;
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 40px;
 }
 
@@ -354,7 +398,10 @@ footer {
   nav {
     display: block;
     position: relative;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding-right: 1rem;
     margin-left: auto;
@@ -362,6 +409,8 @@ footer {
   }
 
   #navmenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 
@@ -406,11 +455,20 @@ footer {
   }
 
   .text-center section {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     /* Had help from chat GPT to align this section in the middle of the div */
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 100%;
   }
 }
