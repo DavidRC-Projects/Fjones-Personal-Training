@@ -39,7 +39,7 @@
 
 ![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
 
-### Results W3C HTML validator
+### Results W3C HTML and CSS validator
 
 ##### Homepage - W3C Validation Check
 There were 22 errors identified, which were corrected as follows:
@@ -101,3 +101,5 @@ After the above changes the validation passed. Please see 404 page validation er
 
 ![wc3checkindex](assets/img-readme/wc3check404.png)
 
+#### CSS validator
+No errors were found with the css code on validation checks.
