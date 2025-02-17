@@ -65,7 +65,7 @@ After the above changes the validation passed. Please see homepage validation er
 
 ##### Booking page - W3C Validation Check
 There were 7 errors identified, which were corrected as follows:
-1. 
+1. Added missing div element that needed a closing tag.
 
 After the above changes the validation passed. Please see homepage validation errors below:
 
