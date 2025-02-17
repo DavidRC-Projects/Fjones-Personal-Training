@@ -5,7 +5,8 @@
 ## Contents
 
 ### Automated testing
-- Lighthouse
+* [Lighthouse](#homepage)
+* [W3C HTML and CSS Validator](#results_w3c_html_and_css_validator)
 
 ### Results from Lighthouse testing
 
@@ -39,9 +40,9 @@
 
 ![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
 
-### Results W3C HTML and CSS validator
+### Results_W3C_HTML_and_CSS_validator
 
-##### Homepage - W3C Validation Check
+##### Homepage_Validator - W3C Validation Check
 There were 22 errors identified, which were corrected as follows:
 1. Added div to container due to the container tag not being closed.
 2. Changed duplicate id attributes to class.
