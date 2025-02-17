@@ -71,3 +71,12 @@ After the above changes the validation passed. Please see homepage validation er
 
 ![wc3checkindex](assets/img-readme/wc3checkbooking1.png)
 ![wc3checkindex](assets/img-readme/wc3checkbooking2.png)
+
+##### Testimonials page - W3C Validation Check
+There were 4 errors identified, which were corrected as follows:
+1. Added missing div element that needed a closing tag.
+2. Removed white space validator from text area.
+
+![wc3checkindex](assets/img-readme/wc3checktestimonials1.png)
+
+##### Contact page - W3C Validation Check
