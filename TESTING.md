@@ -10,33 +10,33 @@
 
 ### Results from Lighthouse testing
 
-#### Homepage
+#### Homepage desktop
 ![lighthousetesting](assets/img-readme/lighthouse-homepage.png)
 
-#### About me page
+#### About me page desktop
 ![lighthousetesting](assets/img-readme/lighthouse-aboutme.png)
 
-#### Booking page
+#### Booking page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-booking.png)
 
-#### Testimonials page
+#### Testimonials page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-testimonials.png)
 
-#### Contact us page
+#### Contact us page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-contactus.png)
 
-#### Error 404 page
+#### Error 404 page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-404.png)
 
-#### Booking success page
+#### Booking success page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-bookingsuccess.png)
 
-#### Feedback success page
+#### Feedback success page desktop
 
 ![lighthousetesting](assets/img-readme/lighthouse-feedbacksuccess.png)
 

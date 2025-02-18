@@ -232,15 +232,15 @@ A contrast checker was used to ensure the text was readable on the background. T
 - Add a testimonial carousel for better readability and a smoother user experience.
 - Place the testimonial carousel on the homepage below the core training sections and add a "leave feedback" button below the carousel. This will hopefully improve user engagement for returning users.
 
+4. Configure server so that the custom 404 page appears when a link is broken
+
 ## Testing
-
-
 
 ### Manual testing
 
 #### Responsiveness testing
 
-- Used the inspect element tool in Google Chrone to check different screen sizes (mobile, tablet, desktop and larger screens).
+- Used the inspect element tool in Google Chrome to check different screen sizes (mobile, tablet, desktop and larger screens).
 - Ensured all webpages adapt properly to different screen widths.
 
 #### Navigation and link testing
@@ -269,6 +269,111 @@ Validation check
 
 #### Layout and UI fixes
 - Identified and resolved an issue where the h1 element had a line break on every page expect the index page.
+
+Home page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Day and Time table | Hover over table list | table rows highlight grey on hover  | Pass |
+| Book now button | Click button | redirects user to booking page | Pass |
+| Footer icons | Click each footer icon | Hover effect on each icon and when clicked takes the client to the appropriate link | Pass |
+| Carousel next and previous buttons | Click on next and previous button on the automatic carousel  | Slides to next image | Pass |
+
+About me page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar and click on title | Changes colour on hover and takes the client to the home page when clicked on | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Footer icons | Click each footer icon | Hover effect on each icon and when clicked takes the client to the appropriate link | Pass |
+| Book now button | Click button | redirects user to booking page | Pass |
+| Get in Touch button | Click button | redirects user to contact page | Pass |
+
+Booking page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Footer icons | Click each footer icon | Hover effect on each icon and when clicked takes the client to the appropriate link | Pass |
+| First name input field | Add white space and then no text into field | Message appears to fill in field on submit or match the format request if white space | Pass |
+| Surname name input field | Add white space and then no text into field | Message appears to fill in field on submit or match the format request if white space | Pass |
+| Email input field | Add white space and then text without @ into field | Message appears to include '@' in email address on submit or fill in this page if white space | Pass |
+| Phone number input field |Add white space and then no text into field | Message appears to fill in field on submit | Pass |
+| Date and time input field | Inserted date and time | Date and time shown after using calendar | Pass |
+| Message input field | No text added | Message appears to fill in field on submit | Pass |
+| Submit button | Click button | redirects user to booking success page | Pass |
+
+Testimonials page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Footer icons | Click each footer icon | Hover effect on each icon and when clicked takes the client to the appropriate link | Pass |
+| Name input field | Add white space and then no text into field | Message appears to fill in field on submit or match the format request if white space | Pass |
+| Message input field | No text added | Message appears to fill in field on submit | Pass |
+| Submit button | Click button | redirects user to feedback success page | Pass |
+
+Contact page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Contact me icons | Click each icon | Hover effect on each icon | Pass |
+| Footer icons | Click each footer icon | Hover effect on each icon and when clicked takes the client to the appropriate link | Pass |
+| Map | Click on map and move the map by holiding right click | Able to zoon in and out of map and move map within the iframe | Pass |
+
+Booking success page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Return home button | Click button | redirects user to home page | Pass |
+
+Feedback success page testing
+| Feature | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- |
+| Site title | Hover over navbar | Changes colour on hover | Pass |
+| Navbar home button | Hover over navbar | Changes colour on hover with home underlined to show user the page they are on | Pass |
+| Navbar about me button | Hover over navbar and click | Changes colour on hover and takes user to about me page | Pass |
+| Navbar booking button | Hover over navbar and click  | Changes colour on hover and takes user to booking page | Pass |
+| Navbar tesimonials button | Hover over navbar and click  | Changes colour on hover and takes user to testimonials page | Pass |
+| Navbar contact button| Hover over navbar and click  | Changes colour on hover and takes user to contact page | Pass |
+| Navbar button drop down | Change screen size to mobile | Navbar turns into a drop down icon on mobile devices and smaller | Pass |
+| Return home button | Click button | redirects user to home page | Pass |
+
+404 page testing
+| --- | --- | --- | --- |
+| Return home button | Click button | redirects user to home page | Pass |
 
 ![wireframehomepage](assets/img-readme/h1layoutissue.png)![wireframehomepage](assets/img-readme/h1layoutfix.png)
 
@@ -345,24 +450,98 @@ I used [Autoprefixer CSS online](https://autoprefixer.github.io/). There are sty
 
 See [TESTING.md](TESTING.md) for more details of the tests completed.
 
+## Technologies Used
+
+### Languages used
+HTML and CSS
+Javascript used via bootstrap and font awesome kit
+
+### Programs and sites used
+* Figma for wire frames [Figma Wireframes](https://www.figma.com/design/1Twli1VdO4Aw1BYe7Kqi01/Homepage?node-id=0-1&t=06Ak1LflsJmyUtDo-1) - For wireframes
+* Github
+* Git pod
+* VS code
+* Google developer tools - To test code
+* Google fonts [Google Fonts](https://fonts.google.com/)
+* Font Awesome [Font Awesome](https://fontawesome.com/)
+* Slack - For updates and communication
+* Tiny PNG [TinyPNG](https://tinypng.com/) - To compress images and convert them to png
+* Favicon.io [Favicon.io](https://favicon.io/) To create favicon
+* Am i Responsive [Am I Responsive?](http://ami.responsivedesign.is/) - To view website as mulitiple different devices
+* Image Resizer [Image Resizer](https://imageresizer.com/) to resize images
+* Color contrast checker [Color contrast checker](https://coolors.co/contrast-checker) - To calculate contrast ratio of text and background
+* Image Color Picker [Image Color Picker](https://imagecolorpicker.com/) - Used to pick colours for website
+* Semrush [Keyword Magic Tool](https://www.semrush.com/) - To review analytics of keywords for insights of potencial traffic when using certain words
+* W3 Schools [W3 Schools](https://www.w3schools.com/) - Additional aid for coding with html and css
+* Pexels [Pexels](https://www.pexels.com/) - To add additional free images to the website
+* Bootstrap5 [Bootstrap5]https://getbootstrap.com/docs/5.0/getting-started/introduction/ - For a framework for certain features.
+
+# Deployment and Local Development
+
 ## Deployment
+
+The site is deployed using GitHub Pages - [Fjones-Personal-Training](https://davidrc-projects.github.io/Fjones-Personal-Training/)
+
+To Deploy the site using GitHub Pages please follow steps below:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [DavidRC-Projects/Fjones-Personal-Training](https://github.com/DavidRC-Projects/Fjones-Personal-Training).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+## Local Development
+
+### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [DavidRC-Projects/Fjones-Personal-Training](https://github.com/DavidRC-Projects/Fjones-Personal-Training).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [DavidRC-Projects/Fjones-Personal-Training](https://github.com/DavidRC-Projects/Fjones-Personal-Training).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Credits
 
-Transition hover effects https://stackoverflow.com/questions/19469495/css-slow-hover-effect
+### Media
+- The 2nd image on the carousel, background image on the bookings/booking success and feedback success pages as well as core training areas were from [Pexels](https://www.pexels.com/).
+- The 1st image on the carousel and 1st image on the about me page were provided by the Personal Trainer Francis Jones.
+
+### Features
+
+The Transition hover effects on the why choose me list in the homepage was taken from a post on [Stack Overflow](https://stackoverflow.com/questions/19469495/css-slow-hover-effect).
+
+The date picker on the booking page was taken from [Geeksforgeeks](https://www.geeksforgeeks.org/how-to-add-a-datepicker-in-form-using-html/)
+
+The scroll bar was taken from [W3 Schools](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp).
+
+My Mentor Jubril Akolade provided advice on using a white space validator in the booking forms. I then researched this and used [Stack Overflow](https://stackoverflow.com/questions/70201780/how-to-put-background-image-in-a-section-in-html) to code this.
+
+I used the following pages on [W3 Schools] to support my understanding of [pseudo classes](https://www.w3schools.com/css/css_pseudo_classes.asp), [image opacity](https://www.w3schools.com/css/css_image_transparency.asp) and creating a [star rating](https://www.w3schools.com/howto/howto_css_star_rating.asp).
+
 
 ### Content
 
-### Media
+A tutor from Code Institute helped with adjusting the screen width to 100% of the container by using the code 'min-width'.
+I used the walkthrough for the love running and board walk games and all content for css and html on the coding institute develop my knowledge and create the webpages.
 
-### Other General Project Advice
+I used bootstrap5 [Bootstrap5]https://getbootstrap.com/docs/5.0/getting-started/introduction/ on every page on the website. This helped with making columns and adding features like the carousel, tables and booking forms.
 
-CSS variables (Boardwalk games and W3schools)
+I used chatgpt to help decide on what typography to use for my website and did further research on google fonts to test this.
 
- date picker (copied from geeksforgeeks.org)
-  star rating (W3schools)
-  booking success pages - Opacity (W3schools)
-  booking validation for white space validator (stackoverflow.com)
-  scroll bar (copied from W3schools)
-  Hover (CSS Pseudo-classes on W3schools)
-  Error 404 page (udacity.com)
+### Acknowledgements
+
+* I would like thank my mentor Jubril Akolade for his advice and guidance.
+* Thank you Rebecca Code Institute tutor that supported me with a layout issue.
+* I would like to thank my partner for all her support during this project.
+
