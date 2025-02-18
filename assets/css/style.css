@@ -32,7 +32,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical; /* For browser compatibility */
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
@@ -51,7 +51,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
+  -webkit-box-align: baseline; /* For browser compatibility */
       -ms-flex-align: baseline;
           align-items: baseline;
   -webkit-box-pack: justify;
@@ -67,10 +67,10 @@ header a {
 }
 
 header h1 {
-  white-space: nowrap;
-  /* Prevent text from wrapping */
+  white-space: nowrap; /* Prevent title from wrapping to a new line */
 }
 
+/* Navbar styling and Drop-down Menu */
 #navmenu {
   letter-spacing: 1.5px;
   list-style-type: none;
@@ -81,8 +81,8 @@ header h1 {
   margin-bottom: 0.25em;
 }
 
+/* Styles the navigation links when hovered over */
 #navmenu a:hover {
-  border-bottom: 1px solid var(--primary-color);
   font-size: 110%;
   color: var(--clr-highlight);
   border-bottom: var(--clr-highlight);
@@ -92,7 +92,7 @@ header h1 {
   border-bottom: 1px solid var(--primary-color);
 }
 
-/* Navbar style and drop down */
+/* Navigation Container */
 nav {
   position: absolute;
   background-color: var(--clr-dark);
@@ -105,10 +105,9 @@ nav {
   top: 100%;
 }
 
-/* Nav toggle button positioning and drop down*/
+/* Navigation toggle button */
 .nav-toggle {
-  margin-left: auto;
-  /* Added as nav bar displayed next to the title */
+  margin-left: auto; /* Added as nav bar displayed next to the title */
 }
 
 #nav-toggle:checked ~ nav {
@@ -121,8 +120,7 @@ nav {
 
 .nav-toggle-label {
   font-size: 1.5rem;
-  margin-left: auto;
-  /* Added as label displayed next to the title */
+  margin-left: auto; /* Added as label displayed next to the title */
   padding: 10px;
 }
 
@@ -157,6 +155,14 @@ h3 ~ ul {
   list-style-type: none;
 }
 
+p {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  padding: 5px;
+  margin-bottom: 16px;
+}
+
+/* Icon Styling */
 #icons li i {
   color: var(--clr-highlight);
   font-size: 120%;
@@ -167,6 +173,12 @@ h3 ~ ul {
   padding: 10px;
 }
 
+.contact-icons {
+  color: var(--primary-color);
+  padding: 15px;
+}
+
+/* Icon Hover */
 #icons li:hover {
   font-size: 140%;
   -webkit-transition-delay: 0.4s;
@@ -174,20 +186,8 @@ h3 ~ ul {
           transition-delay: 0.4s;
 }
 
-.contact-icons {
-  color: var(--primary-color);
-  padding: 15px;
-}
-
 .contact-icons i:hover {
   font-size: 130%;
-}
-
-p {
-  font-family: var(--secondary-font);
-  color: var(--primary-color);
-  padding: 5px;
-  margin-bottom: 16px;
 }
 
 /* Main content */
@@ -195,18 +195,15 @@ main {
   background-color: var(--clr-dark);
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  /* So that main element takes up surplus space to push the footer down */
-  margin-top: 50px;
-  /* At 222 width breakpoint the boxshadow enlarges */
+          flex: 1 0 auto; /* So that main element takes up surplus space to push the footer down */
+  margin-top: 50px; /* At 222 width breakpoint the boxshadow enlarges */
   width: 100vw;
   max-width: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  /* stops padding and border affecting the width */
+          box-sizing: border-box; /* stops padding and border affecting the width */
 }
 
-/* Removed margins from container for all pages and added padding */
+/* Ensures the container takes full width and provides padding that is consistent */
 .container {
   margin-left: 0;
   margin-right: 0;
@@ -216,8 +213,7 @@ main {
 
 /* Carousel image */
 .carousel-item {
-  background-color: var(--primary-color);
-  /* White background so that alt text is visible */
+  background-color: var(--primary-color); /* White background so that alt text is visible */
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -269,7 +265,7 @@ main {
           align-items: center;
 }
 
-/*  form label styles */
+/*  Form label styles */
 .form-label {
   color: var(--primary-color);
   font-family: var(--secondary-font);
@@ -297,7 +293,7 @@ main {
   z-index: 1;
 }
 
-/*  iframe positioning */
+/*  Iframe positioning */
 
 .iframe {
   display: -webkit-box;
@@ -314,7 +310,7 @@ main {
   padding: 20px;
 }
 
-/*  star rating check colour */
+/*  Star rating check colour */
 .checked {
   color: orange;
   font-size: 60%;
@@ -322,7 +318,7 @@ main {
   margin-left: 10px;
 }
 
-/* card styling */
+/* Card styling */
 
 .card-img-top {
   height: 185px;
@@ -330,7 +326,7 @@ main {
      object-fit: cover;
 }
 
-/* card styling for form success pages */
+/* Card styling for form success pages */
 
 main .cardsuccess {
   background-color: var(--clr-primary);
@@ -339,7 +335,7 @@ main .cardsuccess {
   opacity: 90%;
 }
 
-/* Scroll bar */
+/* Scroll bar from W3 Schools */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -367,7 +363,6 @@ footer {
 
 .footercontainer {
   padding: 10px;
-  z-index: 10;
 }
 
 #social-links {
@@ -404,8 +399,7 @@ footer {
     width: -moz-fit-content;
     width: fit-content;
     padding-right: 1rem;
-    margin-left: auto;
-    /* Added to move navbar to the right side */
+    margin-left: auto; /* Added to move navbar to the right side */
   }
 
   #navmenu {
@@ -451,14 +445,12 @@ footer {
   /* h1 element */
   header a h1 br {
     display: none;
-    /* Problem identified on chat GPT and used to keep text on the same line */
   }
 
   .text-center section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    /* Had help from chat GPT to align this section in the middle of the div */
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
