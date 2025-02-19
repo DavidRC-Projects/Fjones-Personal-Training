@@ -52,7 +52,7 @@ Link to [responsive Mockup](https://ui.dev/amiresponsive?url=https://davidrc-pro
 
 - I want to be able to learn about the personal trainers experience and what they offer so that i can assess their expertise and find the right trainer for me.
 - I want to view testimonials to gauge the effectiveness of the personal trainer.
-- I want to see a list of availiable services and pricing to work out my budget.
+- I want to see a list of available services and pricing to work out my budget.
 - I want to be able to view the trainers social media links to learn more about their sessions and training philosophy.
 - I want a user-friendly layout so i can find information quickly and is responsive to different screen sizes.
 
@@ -126,7 +126,7 @@ Wireframes were created for desktops, tablet and mobile devices using figma.
 
 The website is designed to offer a seamless experience through the following pages:
 
-- Home Page: This is the starting point where new clients or existing clients can have an overview of what the trainer offers and availiability.
+- Home Page: This is the starting point where new clients or existing clients can have an overview of what the trainer offers and availability.
 
 - About Me Page: This page gives a deeper dive into the trainers expereince and why the user should choose his services.
 
@@ -166,7 +166,7 @@ Home page
 
 ![wireframehomepage](assets/img-readme/homepage2.png)![wireframehomepage](assets/img-readme/homepage2bottom.png)
 
-The home page is divided into two responsive containers that adapt to all screen sizes. I used a Bootstrap carousel with 2 images and a table of his availiability that adjusts dynamically, displaying as a single column on mobile devices and two columns on desktop screens and larger. The second container features cards with images showcasing the trainer's offerings. Additionally, an h2 heading presents a welcome message, accompanied by text in a paragraph designed to inspire and highlight the site's purpose. Under the table there is a "Book Now" button that has a link for the user to go to booking page.
+The home page is divided into two responsive containers that adapt to all screen sizes. I used a Bootstrap carousel with 2 images and a table of his availability that adjusts dynamically, displaying as a single column on mobile devices and two columns on desktop screens and larger. The second container features cards with images showcasing the trainer's offerings. Additionally, an h2 heading presents a welcome message, accompanied by text in a paragraph designed to inspire and highlight the site's purpose. Under the table there is a "Book Now" button that has a link for the user to go to booking page.
 
 About me page
 
@@ -235,14 +235,14 @@ A contrast checker was used to ensure the text was readable on the background. T
 ## Future Implementations
 
 1. Booking form
-- Add a caldendar feature that allows users to select and save availiable training session dates.
+- Add a caldendar feature that allows users to select and save available training session dates.
 - Ensure live calendar visibility for both the user and trainer, providing a better user experience.
 - Add a payment option for booking sessions directly through the website.
-- Include a pricing list below the booking form to display availiable services and their costs. 
+- Include a pricing list below the booking form to display available services and their costs. 
 
 2. Core training area cards and blog page
  - Make the core training area cards in the home and about me pages clickable with a hyperlink.
- - Each card will like to blog pages providing detailed advice on kettlebell training, strength training and nutritional coaching. This will help give the user more understanding of the level of coaching and advice they will receive and to improve their own knowledge and options availiable from the trainer.
+ - Each card will like to blog pages providing detailed advice on kettlebell training, strength training and nutritional coaching. This will help give the user more understanding of the level of coaching and advice they will receive and to improve their own knowledge and options available from the trainer.
 
 3. Star rating and testimonials update
 - Autumatically update the testimonials page with client-submitted feedback and their star ratings.
