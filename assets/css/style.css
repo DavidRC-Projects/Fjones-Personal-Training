@@ -178,7 +178,7 @@ p {
   padding: 15px;
 }
 
-/* Icon Hover */
+/* Icon Hover with transitions taken from stack overflow */
 #icons li:hover {
   font-size: 140%;
   -webkit-transition-delay: 0.4s;
@@ -240,7 +240,6 @@ main {
 .aboutmeheading {
   text-align: center;
   margin-top: 1rem;
-  /* This is equal to the margin-top of the home page found on developer tools */
   padding-left: 35px;
   padding-right: 35px;
 }
@@ -301,8 +300,7 @@ main {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  /* Centre iframe horizontally */
+          justify-content: center; /* Centre iframe horizontally */
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -335,7 +333,7 @@ main .cardsuccess {
   opacity: 90%;
 }
 
-/* Scroll bar from W3 Schools */
+/* Scroll bar taken from W3 Schools */
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
